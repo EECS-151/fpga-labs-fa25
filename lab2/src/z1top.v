@@ -51,5 +51,5 @@ module z1top (
         .LEDS(counter_leds[3:0])
     );
 
-    assign LEDS = SWITCHES[1] ? counter_LEDS : adder_LEDS;
+    assign LEDS = SWITCHES[1] ? counter_leds : adder_leds;
 endmodule
